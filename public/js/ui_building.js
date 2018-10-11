@@ -100,7 +100,7 @@ function build_user_panels(data) {
 						` + disableHtml + `
 					</div>
 					<div class="innerMarbleWrap"><i class="fa fa-plus addMarble"></i></div>
-					<div class="noMarblesMsg hint">none certs</div>
+					<div class="noMarblesMsg hint">none table</div>
 				</div>`;
 
 		$('.companyPanel[company="' + data[i].company + '"]').find('.ownerWrap').append(html);
@@ -230,11 +230,39 @@ function build_a_tx(data, pos) {
 		data8=data.value.data8;
 		data9=data.value.data9;
 		data10=data.value.data10;
+		
 		data11=data.value.data11;
 		data12=data.value.data12;
 		data13=data.value.data13;
-		// data=data.value.data;
-		// data=data.value.data;
+		data14=data.value.data14;
+		data15=data.value.data15;
+		data16=data.value.data16;
+		data17=data.value.data17;
+		data18=data.value.data18;
+		data19=data.value.data19;
+		data20=data.value.data20;
+
+		data21=data.value.data21;
+		data22=data.value.data22;
+		data23=data.value.data23;
+		data24=data.value.data24;
+		data25=data.value.data25;
+		data26=data.value.data26;
+		data27=data.value.data27;
+		data28=data.value.data28;
+		data29=data.value.data29;
+		data30=data.value.data30;
+
+		data31=data.value.data31;
+		data32=data.value.data32;
+		data33=data.value.data33;
+		data34=data.value.data34;
+		data35=data.value.data35;
+		data36=data.value.data36;
+		data37=data.value.data37;
+		data38=data.value.data38;
+		// data39=data.value.data39;
+		// data10=data.value.data10;
 	}
 
 	// html += `<div class="txDetails">
@@ -346,11 +374,11 @@ function build_a_tx(data, pos) {
 					<div class="marbleName txId">` + data.timestamp + `</div>
 				</p>
 				<p>
-					<div class="marbleLegend">School: </div>
+					<div class="marbleLegend">company: </div>
 					<div class="marbleName">` + username + `</div>
 				</p>
 				<p>
-					<div class="marbleLegend">School Id: </div>
+					<div class="marbleLegend">company Id: </div>
 					<div class="marbleName">` + id + `</div>
 				</p>
 			</div>
@@ -358,59 +386,96 @@ function build_a_tx(data, pos) {
 			<div>
 				<table class="auditcerts">
 					<tr>
-	 					<td align=center>姓名</td>
-	 					<td colspan="3=" >`+data1+`</td>
-	 
-	 					
+	 					<td align=center>被审计单位：</td>
+						<td>`+data1+`</td>
+						<td align=center>索引号</td>
+	 					<td colspan="3">`+data2+`</td>
 	 				</tr>
-	 
 	 				<tr>
-	 					<td align=center>性别</td>
-	 					<td>`+data2+`</td>
-	 					<td align=center>出生日期</td>
+	 					<td align=center>项目</td>
 	 					<td>`+data3+`</td>
-	 
+	 					<td align=center>财务报表截止日/期间</td>
+	 					<td colspan="3">`+data4+`</td>
 	 				</tr>
-	 
 	 				<tr>
-	 					<td align=center>入学时间</td>
-	 					<td>`+data4+`</td>
-	 					<td align=center>毕业时间</td>
+	 					<td align=center>编制</td>
 	 					<td>`+data5+`</td>
+	 					<td align=center>复核</td>
+	 					<td colspan="3">`+data6+`</td>
 	 				</tr>
-	 
 	 				<tr>
-	 					<td align=center>学历类型</td>
-	 					<td>`+data6+`</td>
-	 					<td align=center>学历层次</td>
-	 					<td>`+data7+`</td>	
+	 					<td align=center>日期</td>
+	 					<td>`+data7+`</td>
+	 					<td align=center>日期</td>
+	 					<td colspan="3">`+data8+`</td>	
 	 				</tr>
-	 
 	 				<tr>
-	 					<td align=center>毕业院校</td>
-	 					<td>`+data8+`</td>
-	 					<td align=center>院校所在地</td>
-	 					<td colspan="2">`+data9+`</td>	 
-	 				</tr>
-	 
+						 <td align=center colspan="3">审计工作</td>
+						 <td>是/否/不适用</td>
+					 	<td align=center>备注</td>
+					 	<td colspan="2">索引号</td>
+					</tr>
 	 				<tr>
-	 					<td align=center>专业名称</td>
-	 					<td>`+data10+`</td>
-	 					<td height="35" align=center>学习形式</td>
-	 					<td colspan="2">`+data11+`</td>	 
-			 		</tr>
-	 
-	 				<tr>
-	 					<td align=center>毕结业结论</td>
-	 					<td>`+data12+`</td>
-	 					<td align=center>证书编号</td>
-	 					<td colspan="2">`+data13+`</td>	 
-	 				</tr>
-	 
-					 <tr>
-	 					<td align=center>在<br>线<br>验<br>证</td>
-	 					<td colspan="4" ></td>	 
-	 				</tr>
+						 <td colspan="3">1．是否执行业务承接或保持的相关程序？</td>
+						 <td>`+data9+`</td>
+						<td>`+data10+`</td>
+						<td>`+data11+`</td>
+					</tr>
+					<tr>
+						 <td colspan="3">2．是否签订审计业务约定书？</td>
+						 <td>`+data12+`</td>
+						<td>`+data13+`</td>
+						<td>`+data14+`</td>
+					</tr>
+					<tr>
+						 <td colspan="3">3．是否制定总体审计策略？</td>
+						 <td>`+data15+`</td>
+						<td>`+data16+`</td>
+						<td>`+data17+`</td>
+					</tr>
+					<tr>
+						 <td colspan="3">4．审计计划制定过程中，是否了解被审计单位及其环境并评估重大错报风险，包括舞弊风险？</td>
+						 <td>`+data18+`</td>
+						<td>`+data19+`</td>
+						<td>`+data20+`</td>
+					</tr>
+					<tr>
+						 <td colspan="3">5.是否召开项目组会议？</td>
+						 <td>`+data21+`</td>
+						<td>`+data22+`</td>
+						<td>`+data23+`</td>
+					</tr>
+					<tr>
+						 <td colspan="3">6．审计计划是否经适当人员批准？</td>
+						 <td>`+data24+`</td>
+						<td>`+data25+`</td>
+						<td>`+data26+`</td>
+					</tr>
+					<tr>
+						 <td colspan="3">7．是否与被审计单位就审计计划进行沟通？</td>
+						 <td>`+data27+`</td>
+						<td>`+data28+`</td>
+						<td>`+data29+`</td>
+					</tr>
+					<tr>
+						 <td colspan="3">8．计划的审计程序是否得到较好执行，对计划的修改是否得到记录？</td>
+						 <td>`+data30+`</td>
+						<td>`+data31+`</td>
+						<td>`+data32+`</td>
+					</tr>
+					<tr>
+						 <td colspan="3">9．是否已获取所有必要的来自银行、律师、债权人、债务人、持有存货的第三方等外部机构的询证函回函或确认函？</td>
+						 <td>`+data33+`</td>
+						<td>`+data34+`</td>
+						<td>`+data35+`</td>
+					</tr>
+					<tr>
+						 <td colspan="3">10．所有重要实物资产是否均已实施监盘？</td>
+						 <td>`+data36+`</td>
+						<td>`+data37+`</td>
+						<td>`+data38+`</td>
+					</tr>
+
 				</table>
 			</div>
 			<hr>

@@ -153,16 +153,45 @@ func init_marble(stub shim.ChaincodeStubInterface, args []string) pb.Response {
 	data3 := args[5]
 	data4 := args[6]
 	data5 := args[7]
-
 	data6 := args[8]
 	data7 := args[9]
 	data8 := args[10]
 	data9 := args[11]
 	data10 := args[12]
 
-	data11 := args[13]
+	data11 := args[13] //data11
 	data12 := args[14]
 	data13 := args[15]
+	data14 := args[16]
+	data15 := args[17]
+	data16 := args[18]
+	data17 := args[19]
+	data18 := args[20]
+	data19 := args[21]
+	data20 := args[22]
+
+	data21 := args[23] //data21
+	data22 := args[24]
+	data23 := args[25]
+	data24 := args[26]
+	data25 := args[27]
+	data26 := args[28]
+	data27 := args[29]
+	data28 := args[30]
+	data29 := args[31]
+	data30 := args[32]
+
+	data31 := args[33] //data31
+	data32 := args[34]
+	data33 := args[35]
+	data34 := args[36]
+	data35 := args[37]
+	data36 := args[38]
+	data37 := args[39]
+	data38 := args[40]
+	// data39 := args[11]
+	// data40 := args[12]
+
 	if err != nil {
 		return shim.Error("3rd argument must be a numeric string")
 	}
@@ -212,9 +241,34 @@ func init_marble(stub shim.ChaincodeStubInterface, args []string) pb.Response {
 		"data8": "` + data8 + `",
 		"data9": "` + data9 + `",
 		"data10": "` + data10 + `",
-		"data11": "` + data11 + `",
-		"data12": "` + data12 + `",
+		"data11": "` + data11 + `", 
+		"data12": "` + data12 + `", 
 		"data13": "` + data13 + `",
+		"data14": "` + data14 + `",
+		"data15": "` + data15 + `",
+		"data16": "` + data16 + `",
+		"data17": "` + data17 + `",
+		"data18": "` + data18 + `",
+		"data19": "` + data19 + `",
+		"data20": "` + data20 + `",
+		"data21": "` + data21 + `", 
+		"data22": "` + data22 + `", 
+		"data23": "` + data23 + `",
+		"data24": "` + data24 + `",
+		"data25": "` + data25 + `",
+		"data26": "` + data26 + `",
+		"data27": "` + data27 + `",
+		"data28": "` + data28 + `",
+		"data29": "` + data29 + `",
+		"data30": "` + data30 + `",
+		"data31": "` + data31 + `", 
+		"data32": "` + data32 + `", 
+		"data33": "` + data33 + `",
+		"data34": "` + data34 + `",
+		"data35": "` + data35 + `",
+		"data36": "` + data36 + `",
+		"data37": "` + data37 + `",
+		"data38": "` + data38 + `",
 		"owner": {
 			"id": "` + owner_id + `", 
 			"username": "` + owner.Username + `", 
@@ -266,24 +320,44 @@ func init_cert(stub shim.ChaincodeStubInterface, args []string) pb.Response {
 	data3 := args[5]
 	data4 := args[6]
 	data5 := args[7]
-
 	data6 := args[8]
 	data7 := args[9]
 	data8 := args[10]
 	data9 := args[11]
 	data10 := args[12]
 
-	data11 := args[13]
+	data11 := args[13] //data11
 	data12 := args[14]
 	data13 := args[15]
-	// data14 := args[16]
-	// data15 := args[17]
+	data14 := args[16]
+	data15 := args[17]
+	data16 := args[18]
+	data17 := args[19]
+	data18 := args[20]
+	data19 := args[21]
+	data20 := args[22]
 
-	// data16 := args[18]
-	// data17 := args[19]
-	// data18 := args[20]
-	// data19 := args[21]
-	// data20 := args[22] //data20
+	data21 := args[23] //data21
+	data22 := args[24]
+	data23 := args[25]
+	data24 := args[26]
+	data25 := args[27]
+	data26 := args[28]
+	data27 := args[29]
+	data28 := args[30]
+	data29 := args[31]
+	data30 := args[32]
+
+	data31 := args[33] //data31
+	data32 := args[34]
+	data33 := args[35]
+	data34 := args[36]
+	data35 := args[37]
+	data36 := args[38]
+	data37 := args[39]
+	data38 := args[40]
+	// data39 := args[11]
+	// data40 := args[12]
 
 	if err != nil {
 		return shim.Error("3rd argument must be a numeric string")
@@ -324,9 +398,34 @@ func init_cert(stub shim.ChaincodeStubInterface, args []string) pb.Response {
 		"data8": "` + data8 + `",
 		"data9": "` + data9 + `",
 		"data10": "` + data10 + `",
-		"data11": "` + data11 + `",
-		"data12": "` + data12 + `",
+		"data11": "` + data11 + `", 
+		"data12": "` + data12 + `", 
 		"data13": "` + data13 + `",
+		"data14": "` + data14 + `",
+		"data15": "` + data15 + `",
+		"data16": "` + data16 + `",
+		"data17": "` + data17 + `",
+		"data18": "` + data18 + `",
+		"data19": "` + data19 + `",
+		"data20": "` + data20 + `",
+		"data21": "` + data21 + `", 
+		"data22": "` + data22 + `", 
+		"data23": "` + data23 + `",
+		"data24": "` + data24 + `",
+		"data25": "` + data25 + `",
+		"data26": "` + data26 + `",
+		"data27": "` + data27 + `",
+		"data28": "` + data28 + `",
+		"data29": "` + data29 + `",
+		"data30": "` + data30 + `",
+		"data31": "` + data31 + `", 
+		"data32": "` + data32 + `", 
+		"data33": "` + data33 + `",
+		"data34": "` + data34 + `",
+		"data35": "` + data35 + `",
+		"data36": "` + data36 + `",
+		"data37": "` + data37 + `",
+		"data38": "` + data38 + `",
 		"owner": {
 			"id": "` + owner_id + `", 
 			"username": "` + owner.Username + `", 

@@ -2,7 +2,7 @@
 
 	span.fa.fa-close#closeCreateCert
 
-	h2 Create Cert
+	h2 Create Table
 	hr
 
 	#certs
@@ -15,91 +15,319 @@
 			//span.hint &nbsp;&nbsp;RANDOM OR CUSTOM STRING
 
 			//br
-
-			//- br
-			//- legend 
-			//- 	select(name="size")
-			//- 		//- option(value="35" disabled="disabled") Size
-			//- 		option(value="35" selected="selected") Large
-			//- 		option(value="16") Small
-			//- br
-			//- legend 
-			//- 	select(name="user" disabled="disabled")
-			//- 		option(value="" disabled="disabled" selected="selected") User
-			//- input(type="hidden" name="company" value="")
-			//- input(type="hidden" name="owner_id" value="")
-
-			//- br
-			//- br
-			//- button(type="button")#createMarbleButton
-			//- 	span.fa.fa-plus-circle &nbsp;&nbsp;
-			//- 	span Create
-			//- br
-			//- br
-			//- button(type="button")#updateMarbleButton
-			//- 	span.fa.fa-plus-circle &nbsp;&nbsp;
-			//- 	span Update
 			br
 			legend
-				.column1 教育部学历证书电子备案表
+				.column1 审计工作完成情况核对表
 				table(name="certs")
-					tr.tr
-						td(width="120px" height="35px" ) 姓名
-						td(colspan="3")
-							input(type="text" name="1" placeholder="张三")
-						td(width="200px" rowspan="4")
-							img.img(src = '/imgs/2.jpg' width="200px")
 					tr
-						td(width="120px"  height="35" align=center ) 性别
-						td(width="150")
-							input(type="text" name="2" placeholder="男")
-						td(width="120px" height="35" align=center) 出生日期
-						td(width="150")
-							input(type="text" name="3" placeholder="1995/2/5")
+						td(width="200px" ) 被审计单位：
+						td(width="200px" )
+							input(type="text" name="1"  placeholder="" height="10px" )
+						td(width="200px") 索引号：
+						td(width="200px" colspan="2")
+							input(type="text" name="2")
 					tr
-						td(width="120px"  height="35" align=center) 入学时间
-						td(width="150")
-							input(type="text" name="4" placeholder="2017/9/1")
-						td(width="120px"  height="35" align=center) 毕业时间
-						td(width="150") 
-							input(type="text" name="5" placeholder="2020/6/1")
+						td() 项目：
+						td()
+							input(type="text" name="3" placeholder="")
+						td() 财务报表截止日期/期间：
+						td(colspan="2")
+							input(type="text" name="4" placeholder="")
+					tr
+						td() 编制：
+						td()
+							input(type="text" name="5" placeholder="")
+						td() 复核：
+						td(colspan="2") 
+							input(type="text" name="6" placeholder="")
 					tr 
-						td(width="120px"  height="35" align=center) 学历类型
-						td(width="150")
-							input(type="text" name="6" placeholder="全日制")
-						td(width="120px"  height="35" align=center) 学历层次
-						td(width="150")
-							input(type="text" name="7" placeholder="硕士")
+						td() 日期：
+						td()
+							input(type="text" name="7" placeholder="")
+						td() 日期：
+						td(colspan="2")
+							input(type="text" name="8" placeholder="")
 					tr 
-						td(width="120px"  height="35" align=center) 毕业院校
-						td(width="150")
-							input(type="text" name="8" placeholder="北京邮电大学")
-						td(width="80"  height="35" align=center) 院校所在地
-						td(colspan="2" width="150")
-							input(type="text" name="9" placeholder="西土城路10号")
+						td(width="250px" height="30px" colspan="2" ) 审计单位
+						td(width="50px" ) 是/否/不适用
+						td(width="50px" ) 备注
+						td(width="50px" ) 索引号
 					tr 
-						td(width="120px"  height="35" align=center) 专业名称
-						td(width="150")
-							input(type="text" name="10" placeholder="信通")
-						td(width="80"  height="35" align=center) 学习形式
-						td(colspan="2" width="150")
-							input(type="text" name="11" placeholder="全日制")
+						td(height="30px" colspan="2" ) 1．是否执行业务承接或保持的相关程序？
+						td()
+							input(type="text" name="9" placeholder="")
+						td()
+							input(type="text" name="10" placeholder="")
+						td()
+							input(type="text" name="11" placeholder="")
 					tr 
-						td(width="120px"  height="35" align=center) 毕结业结论
-						td(width="150")
-							input(type="text" name="12" placeholder="待填写")
-						td(width="80"  height="35" align=center) 证书编号
-						td(colspan="2" width="150")
-							input(type="text" name="13" placeholder="BUPT2017369840001")
+						td(height="30px" colspan="2" ) 2．是否签订审计业务约定书？
+						td()
+							input(type="text" name="12" placeholder="")
+						td()
+							input(type="text" name="13" placeholder="")
+						td()
+							input(type="text" name="14" placeholder="")
 					tr 
-						td(width="80"  height="120" align=center) 在线验证
-						td(colspan="4")
+						td(height="30px" colspan="2" ) 3．是否制定总体审计策略
+						td()
+							input(type="text" name="15" placeholder="")
+						td()
+							input(type="text" name="16" placeholder="")
+						td()
+							input(type="text" name="17" placeholder="")
 					tr 
-						td(colspan="5" height="400")
+						td(height="30px" colspan="2" ) 4．审计计划制定过程中，是否了解被审计单位及其环境并评估重大错报风险，包括舞弊风险？
+						td()
+							input(type="text" name="18" placeholder="")
+						td()
+							input(type="text" name="19" placeholder="")
+						td()
+							input(type="text" name="20" placeholder="")
+					tr 
+						td(height="30px" colspan="2" ) 5. 是否召开项目组会议？
+						td()
+							input(type="text" name="21" placeholder="")
+						td()
+							input(type="text" name="22" placeholder="")
+						td()
+							input(type="text" name="23" placeholder="")
+					tr 
+						td(height="30px" colspan="2" ) 6．审计计划是否经适当人员批准？
+						td()
+							input(type="text" name="24" placeholder="")
+						td()
+							input(type="text" name="25" placeholder="")
+						td()
+							input(type="text" name="26" placeholder="")
+					tr 
+						td(height="30px" colspan="2" ) 7．是否与被审计单位就审计计划进行沟通？
+						td()
+							input(type="text" name="27" placeholder="")
+						td()
+							input(type="text" name="28" placeholder="")
+						td()
+							input(type="text" name="29" placeholder="")
+					tr 
+						td(height="30px" colspan="2" ) 8．计划的审计程序是否得到较好执行，对计划的修改是否得到记录？
+						td()
+							input(type="text" name="30" placeholder="")
+						td()
+							input(type="text" name="31" placeholder="")
+						td()
+							input(type="text" name="32" placeholder="")
+					tr 
+						td(height="30px" colspan="2" ) 9．是否已获取所有必要的来自银行、律师、债权人、债务人、持有存货的第三方等外部机构的询证函回函或确认函？
+						td()
+							input(type="text" name="33" placeholder="")
+						td()
+							input(type="text" name="34" placeholder="")
+						td()
+							input(type="text" name="35" placeholder="")
+					tr 
+						td(height="30px" colspan="2" ) 10．所有重要实物资产是否均已实施监盘？
+						td()
+							input(type="text" name="36" placeholder="")
+						td()
+							input(type="text" name="37" placeholder="")
+						td()
+							input(type="text" name="38" placeholder="")
+					tr 
+					//- 	td(height="30px" colspan="2" ) 11．当涉及利用其他注册会计师的工作时，对其他注册会计师的工作结果是否满意？
+					//- 	td()
+					//- 		input(type="text" name="39" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="40" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="41" placeholder="")
+					//- tr 
+					//- 	td(height="30px" colspan="2" ) 12．计划执行的各项审计程序是否全部执行完毕，未能执行的审计程序是否实施了替代审计程序？
+					//- 	td()
+					//- 		input(type="text" name="42" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="43" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="44" placeholder="")
+					//- tr 
+					//- 	td(height="30px" colspan="2" ) 13．审计范围是否受到限制？
+					//- 	td()
+					//- 		input(type="text" name="45" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="46" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="47" placeholder="")
+					//- tr 
+					//- 	td(height="30px" colspan="2" ) 14．计划确定的重大错报风险，包括舞弊导致的重大错报风险是否仍旧恰当，是否需要追加审计程序？
+					//- 	td()
+					//- 		input(type="text" name="48" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="49" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="50" placeholder="")
+					//- tr 
+					//- 	td(height="30px" colspan="2" ) 15．是否恰当应对在审计过程中识别的舞弊导致的重大错报风险？
+					//- 	td()
+					//- 		input(type="text" name="51" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="52" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="53" placeholder="")
+					//- tr 
+					//- 	td(height="30px" colspan="2" ) 16．是否审查期后事项，并考虑对财务报表的影响？
+					//- 	td()
+					//- 		input(type="text" name="54" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="55" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="56" placeholder="")
+					//- tr 
+					//- 	td(height="30px" colspan="2" ) 17．是否审查或有事项，并考虑对财务报表的影响？
+					//- 	td()
+					//- 		input(type="text" name="57" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="58" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="59" placeholder="")
+					//- tr 
+					//- 	td(height="30px" colspan="2" ) 18．是否审查关联方及关联方交易，并考虑对财务报表的影响？
+					//- 	td()
+					//- 		input(type="text" name="60" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="61" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="62" placeholder="")
+					//- tr 
+					//- 	td(height="30px" colspan="2" ) 19．是否审查对被审计单位持续经营能力具有重大影响的事项？
+					//- 	td()
+					//- 		input(type="text" name="63" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="64" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="65" placeholder="")
+					//- tr 
+					//- 	td(height="30px" colspan="2" ) 20．是否及时查阅了与已审财务报表相关的其他信息，并充分考虑了其他信息对已审计财务报表的影响？
+					//- 	td()
+					//- 		input(type="text" name="66" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="67" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="68" placeholder="")
+					//- tr 
+					//- 	td(height="30px" colspan="2" ) 21．是否已就审计中发现的重大错报及其他对财务报表产生重大影响的重大事项与适当层次的管理层或治理层沟通？
+					//- 	td()
+					//- 		input(type="text" name="69" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="70" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="71" placeholder="")
+					//- tr 
+					//- 	td(height="30px" colspan="2" ) 22．是否在审计结束时或临近结束时对财务报表进行总体复核？
+					//- 	td()
+					//- 		input(type="text" name="72" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="73" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="74" placeholder="")
+					//- tr 
+					//- 	td(height="30px" colspan="2" ) 23．是否召开项目组会议，并确定建议调整事项和试算平衡表草表？
+					//- 	td()
+					//- 		input(type="text" name="75" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="76" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="77" placeholder="")
+					//- tr 
+					//- 	td(height="30px" colspan="2" ) 24．是否编制重大事项概要，是否所有重大事项均已得到满意解决？
+					//- 	td()
+					//- 		input(type="text" name="78" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="79" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="80" placeholder="")
+					//- tr 
+					//- 	td(height="30px" colspan="2" ) 25．是否与被审计单位召开总结会，就建议调整事项进行沟通，形成总结会会议纪要，并经被审计单位确认？
+					//- 	td()
+					//- 		input(type="text" name="81" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="82" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="83" placeholder="")
+					//- tr 
+					//- 	td(height="30px" colspan="2" ) 26．是否获取被审计单位对所有调整事项的确认
+					//- 	td()
+					//- 		input(type="text" name="84" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="85" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="86" placeholder="")
+					//- tr 
+					//- 	td(height="30px" colspan="2" ) 27．是否累计所有未更正错报，包括错误和推断差异，并评估未更正错报对财务报表的影响？
+					//- 	td()
+					//- 		input(type="text" name="87" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="88" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="89" placeholder="")
+					//- tr 
+					//- 	td(height="30px" colspan="2" ) 28．未更正错报汇总表是否经被审计单位确认？
+					//- 	td()
+					//- 		input(type="text" name="90" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="91" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="92" placeholder="")
+					//- tr 
+					//- 	td(height="30px" colspan="2" ) 29．董事会或管理层是否接受已审计财务报表？
+					//- 	td()
+					//- 		input(type="text" name="93" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="94" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="95" placeholder="")
+					//- tr 
+					//- 	td(height="30px" colspan="2" ) 30．项目负责经理是否已复核工作底稿？
+					//- 	td()
+					//- 		input(type="text" name="96" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="97" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="98" placeholder="")
+					//- tr 
+					//- 	td(height="30px" colspan="2" ) 31．项目负责合伙人是否已复核工作底稿？
+					//- 	td()
+					//- 		input(type="text" name="99" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="100" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="101" placeholder="")
+					//- tr 
+					//- 	td(height="30px" colspan="2" ) 32．是否已完成项目质量控制复核（必要时）？
+					//- 	td()
+					//- 		input(type="text" name="102" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="103" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="104" placeholder="")
+					//- tr 
+					//- 	td(height="30px" colspan="2" ) 33．是否已取得经签署的管理层声明书原件，并确定其签署日期与审计报告日期一致？
+					//- 	td()
+					//- 		input(type="text" name="105" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="106" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="107" placeholder="")
+					//- tr 
+					//- 	td(height="30px" colspan="2" ) 34. 是否完成审计总结？
+					//- 	td()
+					//- 		input(type="text" name="108" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="109" placeholder="")
+					//- 	td()
+					//- 		input(type="text" name="110" placeholder="")
 	br
 	button.column1(type="button")#createCertButton
 		span.fa.fa-plus-circle &nbsp;&nbsp;
-		span 创建证书
+		span 创建审计表格
 		span
 	br
 

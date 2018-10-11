@@ -55,13 +55,31 @@ type Marble struct {
 	Data11 string        `json:"data11"`
 	Data12 string        `json:"data12"`
 	Data13 string        `json:"data13"`
-	// Data14 string        `json:"data14"`
-	// Data15 string        `json:"data15"`
-	// Data16 string        `json:"data16"`
-	// Data17 string        `json:"data17"`
-	// Data18 string        `json:"data18"`
-	// Data19 string        `json:"data19"`
-	// Data20 string        `json:"data20"`
+	Data14 string        `json:"data14"`
+	Data15 string        `json:"data15"`
+	Data16 string        `json:"data16"`
+	Data17 string        `json:"data17"`
+	Data18 string        `json:"data18"`
+	Data19 string        `json:"data19"`
+	Data20 string        `json:"data20"`
+	Data21 string        `json:"data21"`
+	Data22 string        `json:"data22"`
+	Data23 string        `json:"data23"`
+	Data24 string        `json:"data24"`
+	Data25 string        `json:"data25"`
+	Data26 string        `json:"data26"`
+	Data27 string        `json:"data27"`
+	Data28 string        `json:"data28"`
+	Data29 string        `json:"data29"`
+	Data30 string        `json:"data30"`
+	Data31 string        `json:"data31"`
+	Data32 string        `json:"data32"`
+	Data33 string        `json:"data33"`
+	Data34 string        `json:"data34"`
+	Data35 string        `json:"data35"`
+	Data36 string        `json:"data36"`
+	Data37 string        `json:"data37"`
+	Data38 string        `json:"data38"`
 }
 
 // ----- Owners ----- //

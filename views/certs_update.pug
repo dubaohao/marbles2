@@ -2,7 +2,7 @@
 
 	span.fa.fa-close#closeUpdateCert
 
-	h2 Update Cert
+	h2 Update Table
 	hr
 
 	#certs
@@ -15,91 +15,128 @@
 			//span.hint &nbsp;&nbsp;RANDOM OR CUSTOM STRING
 
 			//br
-
-			//- br
-			//- legend 
-			//- 	select(name="size")
-			//- 		//- option(value="35" disabled="disabled") Size
-			//- 		option(value="35" selected="selected") Large
-			//- 		option(value="16") Small
-			//- br
-			//- legend 
-			//- 	select(name="user" disabled="disabled")
-			//- 		option(value="" disabled="disabled" selected="selected") User
-			//- input(type="hidden" name="company" value="")
-			//- input(type="hidden" name="owner_id" value="")
-
-			//- br
-			//- br
-			//- button(type="button")#createMarbleButton
-			//- 	span.fa.fa-plus-circle &nbsp;&nbsp;
-			//- 	span Create
-			//- br
-			//- br
-			//- button(type="button")#updateMarbleButton
-			//- 	span.fa.fa-plus-circle &nbsp;&nbsp;
-			//- 	span Update
 			br
 			legend
-				.column1 教育部学历证书电子备案表
+				.column1 学历证书电子备案表
 				table(name="updatecerts")
-					tr.tr
-						td(width="120px" height="35px" ) 姓名
-						td(colspan="3")
-							input(type="text" name="01" placeholder="张三")
-						td(width="200px" rowspan="4")
-							img.img(src = '/imgs/2.jpg' width="200px")
 					tr
-						td(width="120px"  height="35" align=center ) 性别
-						td(width="150")
-							input(type="text" name="02" placeholder="男")
-						td(width="120px" height="35" align=center) 出生日期
-						td(width="150")
-							input(type="text" name="03" placeholder="1995/2/5")
+						td(width="200px" ) 被审计单位：
+						td(width="200px" )
+							input(type="text" name="01"  placeholder="" height="10px" )
+						td(width="200px") 索引号：
+						td(width="200px" colspan="2")
+							input(type="text" name="02")
 					tr
-						td(width="120px"  height="35" align=center) 入学时间
-						td(width="150")
-							input(type="text" name="04" placeholder="2017/9/1")
-						td(width="120px"  height="35" align=center) 毕业时间
-						td(width="150") 
-							input(type="text" name="05" placeholder="2020/6/1")
+						td() 项目：
+						td()
+							input(type="text" name="03" placeholder="")
+						td() 财务报表截止日期/期间：
+						td(colspan="2")
+							input(type="text" name="04" placeholder="")
+					tr
+						td() 编制：
+						td()
+							input(type="text" name="05" placeholder="")
+						td() 复核：
+						td(colspan="2") 
+							input(type="text" name="06" placeholder="")
 					tr 
-						td(width="120px"  height="35" align=center) 学历类型
-						td(width="150")
-							input(type="text" name="06" placeholder="全日制")
-						td(width="120px"  height="35" align=center) 学历层次
-						td(width="150")
-							input(type="text" name="07" placeholder="硕士")
+						td() 日期：
+						td()
+							input(type="text" name="07" placeholder="")
+						td() 日期：
+						td(colspan="2")
+							input(type="text" name="08" placeholder="")
 					tr 
-						td(width="120px"  height="35" align=center) 毕业院校
-						td(width="150")
-							input(type="text" name="08" placeholder="北京邮电大学")
-						td(width="80"  height="35" align=center) 院校所在地
-						td(colspan="2" width="150")
-							input(type="text" name="09" placeholder="西土城路10号")
+						td(width="250px" height="30px" colspan="2" ) 审计单位
+						td(width="50px" ) 是/否/不适用
+						td(width="50px" ) 备注
+						td(width="50px" ) 索引号
 					tr 
-						td(width="120px"  height="35" align=center) 专业名称
-						td(width="150")
-							input(type="text" name="010" placeholder="信通")
-						td(width="80"  height="35" align=center) 学习形式
-						td(colspan="2" width="150")
-							input(type="text" name="011" placeholder="全日制")
+						td(height="30px" colspan="2" ) 1．是否执行业务承接或保持的相关程序？
+						td()
+							input(type="text" name="09" placeholder="")
+						td()
+							input(type="text" name="010" placeholder="")
+						td()
+							input(type="text" name="011" placeholder="")
 					tr 
-						td(width="120px"  height="35" align=center) 毕结业结论
-						td(width="150")
-							input(type="text" name="012" placeholder="待填写")
-						td(width="80"  height="35" align=center) 证书编号
-						td(colspan="2" width="150")
-							input(type="text" name="013" placeholder="BUPT2017369840001")
+						td(height="30px" colspan="2" ) 2．是否签订审计业务约定书？
+						td()
+							input(type="text" name="012" placeholder="")
+						td()
+							input(type="text" name="013" placeholder="")
+						td()
+							input(type="text" name="014" placeholder="")
 					tr 
-						td(width="80"  height="120" align=center) 在线验证
-						td(colspan="4")
+						td(height="30px" colspan="2" ) 3．是否制定总体审计策略
+						td()
+							input(type="text" name="015" placeholder="")
+						td()
+							input(type="text" name="016" placeholder="")
+						td()
+							input(type="text" name="017" placeholder="")
 					tr 
-						td(colspan="5" height="400")
+						td(height="30px" colspan="2" ) 4．审计计划制定过程中，是否了解被审计单位及其环境并评估重大错报风险，包括舞弊风险？
+						td()
+							input(type="text" name="018" placeholder="")
+						td()
+							input(type="text" name="019" placeholder="")
+						td()
+							input(type="text" name="020" placeholder="")
+					tr 
+						td(height="30px" colspan="2" ) 5. 是否召开项目组会议？
+						td()
+							input(type="text" name="021" placeholder="")
+						td()
+							input(type="text" name="022" placeholder="")
+						td()
+							input(type="text" name="023" placeholder="")
+					tr 
+						td(height="30px" colspan="2" ) 6．审计计划是否经适当人员批准？
+						td()
+							input(type="text" name="024" placeholder="")
+						td()
+							input(type="text" name="025" placeholder="")
+						td()
+							input(type="text" name="026" placeholder="")
+					tr 
+						td(height="30px" colspan="2" ) 7．是否与被审计单位就审计计划进行沟通？
+						td()
+							input(type="text" name="027" placeholder="")
+						td()
+							input(type="text" name="028" placeholder="")
+						td()
+							input(type="text" name="029" placeholder="")
+					tr 
+						td(height="30px" colspan="2" ) 8．计划的审计程序是否得到较好执行，对计划的修改是否得到记录？
+						td()
+							input(type="text" name="030" placeholder="")
+						td()
+							input(type="text" name="031" placeholder="")
+						td()
+							input(type="text" name="032" placeholder="")
+					tr 
+						td(height="30px" colspan="2" ) 9．是否已获取所有必要的来自银行、律师、债权人、债务人、持有存货的第三方等外部机构的询证函回函或确认函？
+						td()
+							input(type="text" name="033" placeholder="")
+						td()
+							input(type="text" name="034" placeholder="")
+						td()
+							input(type="text" name="035" placeholder="")
+					tr 
+						td(height="30px" colspan="2" ) 10．所有重要实物资产是否均已实施监盘？
+						td()
+							input(type="text" name="036" placeholder="")
+						td()
+							input(type="text" name="037" placeholder="")
+						td()
+							input(type="text" name="038" placeholder="")
+					tr 
 	br
 	button.column1(type="button")#updateCertButton
 		span.fa.fa-plus-circle &nbsp;&nbsp;
-		span 更改证书
+		span 修改表单内容
 		span
 	hr
 

@@ -1,6 +1,8 @@
 @import 'color_theme';
 
-$auditSize: 333px;
+// $auditSize: 333px;
+$auditSize: 400px;
+// $auditSize: 40%;
 
 #rightEverything{
 	transition: width 3s;
@@ -372,53 +374,77 @@ $auditSize: 333px;
 //dubaohao--------------增加和修改证书
 #createCertificates{
 	position: fixed;
-	top: 50px;
+	top: 0px;
 	background: #343d48;
 	z-index: 1005;
 	padding: 40px 60px;
 	left: 50%;
 	margin-left: -445px;
 	width: 780px;
-	height:600px;
+	height:700px;
 	display: none;
 	// overflow-y: auto;
 }
 #updateCertificates{
 	position: fixed;
-	top: 50px;
+	top: 0px;
 	background: #343d48;
 	z-index: 1005;
 	padding: 40px 60px;
 	left: 50%;
 	margin-left: -445px;
 	width: 780px;
-	height:600px;
+	height:700px;
 	display: none;
 	// overflow-y: auto;
 }
+//
+// #certs{
+// 	position: relative;
+// 	vertical-align: bottom;
+// 	text-align: center;
+// 	font-size: 14px;
+// 	display: inline-block;
+// 	margin-left: 10px;
+// 	margin-right:10px;
+// 	// left: 100%;
+// 	margin-top: 5px;
+// 	margin-bottom: 30px;
+// 	height:500px;
+// 	overflow-y: auto;
+// 	background-color:#ffecec;/*表格外背景颜色*/
+// 	font-family:arial,verdana,sans-serif;font-size:14px;
+// 	table{border:1px solid #666666;}/*table最外面的边框的颜色属性*/
+// 	th{border:0px solid; background-color:#999999; padding:4px;	}/*th距离边框的padding*/
+// 	.odd{background-color:#efefef;}/*浅灰色：这里覆盖了深一些的灰色*/
+// 	/*odd在tr里面，浅色覆盖深色，即odd覆盖tr，尽管odd在tr里面*/
+// 	tr{background-color:#cccccc;}/*比浅灰色深了点*/
+// 	td{color:#111111;/*字体颜色*/padding:2px;/*字体距离边框的距离*/}
+// 	img{width:200px;}
+// }
 #certs{
-	position: relative;
-	vertical-align: bottom;
-	text-align: center;
-	font-size: 14px;
-	display: inline-block;
-	margin-left: 10px;
-	margin-right:10px;
-	// left: 100%;
-	margin-top: 5px;
-	margin-bottom: 30px;
-	height:500px;
-	overflow-y: auto;
-	background-color:#ffecec;/*表格外背景颜色*/
-	font-family:arial,verdana,sans-serif;font-size:14px;
-	table{border:1px solid #666666;}/*table最外面的边框的颜色属性*/
-	th{border:0px solid; background-color:#999999; padding:4px;	}/*th距离边框的padding*/
-	.odd{background-color:#efefef;}/*浅灰色：这里覆盖了深一些的灰色*/
-	/*odd在tr里面，浅色覆盖深色，即odd覆盖tr，尽管odd在tr里面*/
-	tr{background-color:#cccccc;}/*比浅灰色深了点*/
-	td{color:#111111;/*字体颜色*/padding:2px;/*字体距离边框的距离*/}
-	img{width:200px;}
-}
+		position: relative;
+		vertical-align: bottom;
+		text-align: left;
+		font-size: 14px;
+		display: inline-block;
+		margin-left: 10px;
+		margin-right:10px;
+		padding:0px 10px 0px 10px ;
+		// left: 100%;
+		margin-top: 5px;
+		margin-bottom: 30px;
+		height:600px;
+		overflow-y: auto;
+		background-color:#fff;/*表格外背景颜色*/
+		font-family:arial,verdana,sans-serif;font-size:14px;
+		table{border:1px solid #000;}/*table最外面的边框的颜色属性*/
+		th{border:1px #000 solid; background-color:#fff; padding:4px;	}/*th距离边框的padding*/
+		.odd{background-color:#fff;}/*浅灰色：这里覆盖了深一些的灰色*/
+		/*odd在tr里面，浅色覆盖深色，即odd覆盖tr，尽管odd在tr里面*/
+		tr{ border:1px solid #000;background-color:#fff;}/*比浅灰色深了点*/
+		td{border:1px solid #000;color:#000;/*字体颜色*/padding:2px;/*字体距离边框的距离*/text-align: left;/*每一行左对齐*/}
+	}
 .column1{
 	// float:center;
 	width:100%;

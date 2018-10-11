@@ -69,14 +69,18 @@ input[type="submit"]:hover,input[type="button"]:hover, button:hover, button.acti
 	background: $hi_color2-5;
 }
 input[type="text"], input[type="password"], select{
-	padding:5px 10px;
-	margin:5px;
-	color:$main_color;
+	padding:5px 0px;
+	// margin:5px;
+	width:100%;
+	// color:$main_color;
+	color:#000;
 	border: 1px solid $acc_color2;
 	border-radius:5px;
-	background:$main_bg;
+	// background:$main_bg;
+	// background: rgb(201, 192, 145);
 	min-width:120px;
 	//font-family: monospace;
+	// margin-top:-1px;margin-bottom:-1px;width:100%;border:none;
 }
 
 input[type="text"]:disabled, input[type="password"]:disabled, select:disabled{

@@ -102,7 +102,6 @@ $('#createCertButton').click(function () {
 		data3: $('input[name="3"]').val(),
 		data4: $('input[name="4"]').val(),
 		data5: $('input[name="5"]').val(),
-
 		data6: $('input[name="6"]').val(),
 		data7: $('input[name="7"]').val(),
 		data8: $('input[name="8"]').val(),
@@ -112,14 +111,35 @@ $('#createCertButton').click(function () {
 		data11: $('input[name="11"]').val(),
 		data12: $('input[name="12"]').val(),
 		data13: $('input[name="13"]').val(),
-		// data14: $('input[name="14"]').val(),
-		// data15: $('input[name="15"]').val(),
+		data14: $('input[name="14"]').val(),
+		data15: $('input[name="15"]').val(),
+		data16: $('input[name="16"]').val(),
+		data17: $('input[name="17"]').val(),
+		data18: $('input[name="18"]').val(),
+		data19: $('input[name="19"]').val(),
+		data20: $('input[name="20"]').val(),
 
-		// data16: $('input[name="16"]').val(),
-		// data17: $('input[name="17"]').val(),
-		// data18: $('input[name="18"]').val(),
-		// data19: $('input[name="19"]').val(),
-		// data20: $('input[name="20"]').val(),
+		data21: $('input[name="21"]').val(),
+		data22: $('input[name="22"]').val(),
+		data23: $('input[name="23"]').val(),
+		data24: $('input[name="24"]').val(),
+		data25: $('input[name="25"]').val(),
+		data26: $('input[name="26"]').val(),
+		data27: $('input[name="27"]').val(),
+		data28: $('input[name="28"]').val(),
+		data29: $('input[name="29"]').val(),
+		data30: $('input[name="30"]').val(),
+
+		data31: $('input[name="31"]').val(),
+		data32: $('input[name="32"]').val(),
+		data33: $('input[name="33"]').val(),
+		data34: $('input[name="34"]').val(),
+		data35: $('input[name="35"]').val(),
+		data36: $('input[name="36"]').val(),
+		data37: $('input[name="37"]').val(),
+		data38: $('input[name="38"]').val(),
+		// data39: $('input[name="39"]').val(),
+		// data40: $('input[name="40"]').val(),
 		username: $('select[name="user"]').val(),
 		company: $('input[name="company"]').val(),
 		owner_id: $('input[name="owner_id"]').val(),
@@ -153,7 +173,6 @@ $('#updateCertButton').click(function () {
 		data3: $('input[name="03"]').val(),
 		data4: $('input[name="04"]').val(),
 		data5: $('input[name="05"]').val(),
-
 		data6: $('input[name="06"]').val(),
 		data7: $('input[name="07"]').val(),
 		data8: $('input[name="08"]').val(),
@@ -163,14 +182,33 @@ $('#updateCertButton').click(function () {
 		data11: $('input[name="011"]').val(),
 		data12: $('input[name="012"]').val(),
 		data13: $('input[name="013"]').val(),
-		// data14: $('input[name="14"]').val(),
-		// data15: $('input[name="15"]').val(),
+		data14: $('input[name="014"]').val(),
+		data15: $('input[name="015"]').val(),
+		data16: $('input[name="016"]').val(),
+		data17: $('input[name="017"]').val(),
+		data18: $('input[name="018"]').val(),
+		data19: $('input[name="019"]').val(),
+		data20: $('input[name="020"]').val(),
 
-		// data16: $('input[name="16"]').val(),
-		// data17: $('input[name="17"]').val(),
-		// data18: $('input[name="18"]').val(),
-		// data19: $('input[name="19"]').val(),
-		// data20: $('input[name="20"]').val(),
+		data21: $('input[name="021"]').val(),
+		data22: $('input[name="022"]').val(),
+		data23: $('input[name="023"]').val(),
+		data24: $('input[name="024"]').val(),
+		data25: $('input[name="025"]').val(),
+		data26: $('input[name="026"]').val(),
+		data27: $('input[name="027"]').val(),
+		data28: $('input[name="028"]').val(),
+		data29: $('input[name="029"]').val(),
+		data30: $('input[name="030"]').val(),
+
+		data31: $('input[name="031"]').val(),
+		data32: $('input[name="032"]').val(),
+		data33: $('input[name="033"]').val(),
+		data34: $('input[name="034"]').val(),
+		data35: $('input[name="035"]').val(),
+		data36: $('input[name="036"]').val(),
+		data37: $('input[name="037"]').val(),
+		data38: $('input[name="038"]').val(),
 		v: 1
 	};
 	// console.log(marbleId);
@@ -584,6 +622,32 @@ $('#updateCertButton').click(function () {
 			var data11 =marbles[marbleID].data11;
 			var data12 =marbles[marbleID].data12;
 			var data13 =marbles[marbleID].data13;
+			var data14 =marbles[marbleID].data14;
+			var data15 =marbles[marbleID].data15;
+			var data16 =marbles[marbleID].data16;
+			var data17 =marbles[marbleID].data17;
+			var data18 =marbles[marbleID].data18;
+			var data19 =marbles[marbleID].data19;
+			var data20 =marbles[marbleID].data20;
+			var data21 =marbles[marbleID].data21;
+			var data22 =marbles[marbleID].data22;
+			var data23 =marbles[marbleID].data23;
+			var data24 =marbles[marbleID].data24;
+			var data25 =marbles[marbleID].data25;
+			var data26 =marbles[marbleID].data26;
+			var data27 =marbles[marbleID].data27;
+			var data28 =marbles[marbleID].data28;
+			var data29 =marbles[marbleID].data29;
+			var data30 =marbles[marbleID].data30;
+			var data31 =marbles[marbleID].data31;
+			var data32 =marbles[marbleID].data32;
+			var data33 =marbles[marbleID].data33;
+			var data34 =marbles[marbleID].data34;
+			var data35 =marbles[marbleID].data35;
+			var data36 =marbles[marbleID].data36;
+			var data37 =marbles[marbleID].data37;
+			var data38 =marbles[marbleID].data38;
+			// var data39 =marbles[marbleID].data39;
 			var company = $(that).attr('company');
 			var username = $(that).attr('username');
 			var owner_id = $(that).attr('owner_id');
@@ -601,6 +665,33 @@ $('#updateCertButton').click(function () {
 			$('input[name="011"]').val(data11);
 			$('input[name="012"]').val(data12);
 			$('input[name="013"]').val(data13);
+			$('input[name="014"]').val(data14);
+			$('input[name="015"]').val(data15);
+			$('input[name="016"]').val(data16);
+			$('input[name="017"]').val(data17);
+			$('input[name="018"]').val(data18);
+			$('input[name="019"]').val(data19);
+			$('input[name="020"]').val(data20);
+			$('input[name="021"]').val(data21);
+			$('input[name="022"]').val(data22);
+			$('input[name="023"]').val(data23);
+			$('input[name="024"]').val(data24);
+			$('input[name="025"]').val(data25);
+			$('input[name="026"]').val(data26);
+			$('input[name="027"]').val(data27);
+			$('input[name="028"]').val(data28);
+			$('input[name="029"]').val(data29);
+			$('input[name="030"]').val(data30);
+			$('input[name="031"]').val(data31);
+			$('input[name="032"]').val(data32);
+			$('input[name="033"]').val(data33);
+			$('input[name="034"]').val(data34);
+			$('input[name="035"]').val(data35);
+			$('input[name="036"]').val(data36);
+			$('input[name="037"]').val(data37);
+			$('input[name="038"]').val(data38);
+			// $('input[name="039"]').val(data9);
+			// $('input[name="040"]').val(data10);
 			$('select[name="user"]').html('<option value="' + username + '">' + toTitleCase(username) + '</option>');
 			$('input[name="company"]').val(company);
 			$('input[name="owner_id"]').val(owner_id);
